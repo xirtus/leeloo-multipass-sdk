@@ -1,8 +1,17 @@
 # Leeloo Multipass SDK
+<img width="722" height="574" alt="image" src="https://github.com/user-attachments/assets/6366feaf-1df3-450f-8345-1bab83703738" />
 
 A small, dependency-free browser SDK for opening a trusted cross-network Passport. Users manage linked accounts and ownership stamps on their Passport installation; the embedding application receives no social credentials or identity assertions.
 
 The package name `leeloo-multipass-sdk` is provisional, and the package remains `private` to prevent accidental npm publication. The source is original MIT-licensed code. There is no required hosting provider or branded server default.
+
+## Widget preview
+
+![Leeloo Multipass connection button in an example host application](docs/images/sdk-button.png)
+
+This is the real SDK button with example host styling. It opens the operator’s trusted Passport; the SDK does not include the host-page theme or treat a closed window as proof of sign-in.
+
+See the [desktop and mobile Passport screenshots](https://github.com/xirtus/leeloo-multipass#interface) for the destination interface.
 
 ## Connect in a few lines
 
@@ -76,3 +85,7 @@ npm pack --dry-run
 The tests cover origin/path validation, query injection, unavailable capabilities, opener isolation, popup failure, lifecycle cleanup, cancellation, timeouts, immutable capabilities and text-only button rendering. No test contacts a social account or sends a message.
 
 Read [the architecture](ARCHITECTURE.md), [adapter contracts](docs/ADAPTER_CONTRACTS.md), and [source review](docs/SOURCE_REVIEW.md) before extending the SDK or publishing a release.
+
+## Related projects
+
+[Leeloo Multipass core](https://github.com/xirtus/leeloo-multipass) · [Leeloo Multipass SDK](https://github.com/xirtus/leeloo-multipass-sdk) · [Contribution workflow](CONTRIBUTING.md). New work targets `unstable`.
