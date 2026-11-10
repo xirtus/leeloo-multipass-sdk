@@ -1,4 +1,5 @@
 # Leeloo Multipass SDK
+<img width="722" height="574" alt="image" src="https://github.com/user-attachments/assets/6366feaf-1df3-450f-8345-1bab83703738" />
 
 A small, dependency-free browser SDK for opening a trusted cross-network Passport. Users manage linked accounts and ownership stamps on their Passport installation; the embedding application receives no social credentials or identity assertions.
 
