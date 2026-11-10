@@ -5,6 +5,14 @@ A small, dependency-free browser SDK for opening a trusted cross-network Passpor
 
 The package name `leeloo-multipass-sdk` is provisional, and the package remains `private` to prevent accidental npm publication. The source is original MIT-licensed code. There is no required hosting provider or branded server default.
 
+## Widget preview
+
+![Leeloo Multipass connection button in an example host application](docs/images/sdk-button.png)
+
+This is the real SDK button with example host styling. It opens the operator’s trusted Passport; the SDK does not include the host-page theme or treat a closed window as proof of sign-in.
+
+See the [desktop and mobile Passport screenshots](https://github.com/xirtus/leeloo-multipass#interface) for the destination interface.
+
 ## Connect in a few lines
 
 ```js
