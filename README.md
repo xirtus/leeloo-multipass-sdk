@@ -76,3 +76,7 @@ npm pack --dry-run
 The tests cover origin/path validation, query injection, unavailable capabilities, opener isolation, popup failure, lifecycle cleanup, cancellation, timeouts, immutable capabilities and text-only button rendering. No test contacts a social account or sends a message.
 
 Read [the architecture](ARCHITECTURE.md), [adapter contracts](docs/ADAPTER_CONTRACTS.md), and [source review](docs/SOURCE_REVIEW.md) before extending the SDK or publishing a release.
+
+## Related projects
+
+[Leeloo Multipass core](https://github.com/xirtus/leeloo-multipass) · [Leeloo Multipass SDK](https://github.com/xirtus/leeloo-multipass-sdk) · [Contribution workflow](CONTRIBUTING.md). New work targets `unstable`.
