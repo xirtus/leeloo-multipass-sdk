@@ -1,5 +1,5 @@
 # Leeloo Multipass SDK
-<img width="1792" height="1008" alt="image" src="https://github.com/user-attachments/assets/311daff3-c7c6-4695-b8a9-30ffc7a5a29d" />
+<img width="1792" height="1008" alt="image" src="https://github.com/user-attachments/assets/d8576be0-234a-4902-a684-ebfc1f075801" />
 
 <img width="722" height="574" alt="image" src="https://github.com/user-attachments/assets/6366feaf-1df3-450f-8345-1bab83703738" />
 
